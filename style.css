@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,400,400i");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+p,
+h1, h2, h3, h4, h5,
+a {
+  opacity: 1;
+  text-align: center; }
+
+html,
+body,
+ul,
+li,
+p,
+h1, h2, h3, h4, h5,
+a {
+  margin: 0; }
+
+.ba-header__wrapper-2 h1 {
+  text-transform: uppercase;
+  font: 700 48px/1.5 "Raleway", Arial, sans-serif; }
+
+.dash-color-1 {
+  width: 88px;
+  height: 2px;
+  margin: 35px auto 0;
+  overflow: hidden;
+  border: 1px solid red; }
+
+.ba-services__wrapper-1 div {
+  width: 88px;
+  height: 2px;
+  margin: 35px auto 0;
+  overflow: hidden;
+  border: 1px solid red; }
+
+.ba-header__wrapper-2 p {
+  padding: 37px 0 0;
+  font: 400 24px/1.5 "Lato", Arial, sans-serif;
+  line-height: 30px; }
+
+.ba-services__wrapper-1 h2 {
+  text-transform: uppercase;
+  padding: 103px 0 0;
+  font: 700 35px/1.5 "Raleway", Arial, sans-serif; }
+
+.h-color-1 {
+  color: red; }
+
+.h-color-2 {
+  color: blue; }
+
+.p-color-1 {
+  color: red; }
+
+.p-color-2 {
+  color: blue; }
+
+.dash-color-1 {
+  color: red; }
+
+.dash-color-2 {
+  color: yellow; }
+
+body {
+  font: 300 14px/1.5 'Lato', Arial, sans-serif;
+  position: relative; }
+
+.perfect {
+  width: 1600px;
+  height: 3886px;
+  background-image: url("ref/ref.jpg");
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.4;
+  z-index: 1; }
+
+.ba-header {
+  margin: 0 auto;
+  width: 1600px;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+  background: red url(images/header-bg.jpg) no-repeat; }
+
+.ba-header__wrapper-1 {
+  opacity: 0.1;
+  background-color: magenta;
+  width: 100%;
+  height: 120px; }
+
+.ba-header__wrapper-2 {
+  width: 100%;
+  height: 600px;
+  padding: 183px 480px 30px; }
+
+.ba-header__wrapper-3 {
+  opacity: 0.1;
+  background-color: deeppink;
+  width: 100%;
+  height: 180px; }
+
+.ba-services {
+  background-color: red;
+  margin: 0 auto;
+  width: 1600px;
+  height: 735px;
+  overflow: hidden;
+  position: relative; }
+
+.ba-services__wrapper-1 {
+  background-color: yellow;
+  width: 100%;
+  height: 220px; }
+
+.ba-services__wrapper-2 {
+  background-color: greenyellow;
+  width: 100%;
+  height: 515px;
+  padding: 70px 217px 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; }
+
+.ba-services__flex-1 {
+  opacity: 0.8;
+  background-color: red;
+  width: 31.7%;
+  height: 100%; }
+
+.ba-services__flex-2 {
+  opacity: 0.8;
+  background-color: blueviolet;
+  width: 31.7%;
+  height: 100%; }
+
+.ba-services__flex-3 {
+  opacity: 0.8;
+  background-color: blue;
+  width: 31.7%;
+  height: 100%; }
+
+.ba-product {
+  background: red url(images/black-triangle-bg.jpg) no-repeat;
+  margin: 0 auto;
+  width: 1600px;
+  height: 500px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  overflow: hidden;
+  position: relative; }
+
+.ba-product__flex-1 {
+  opacity: 0.1;
+  background-color: yellow;
+  width: 60%;
+  height: 100%; }
+
+.ba-product__flex-2 {
+  opacity: 0.1;
+  background-color: blueviolet;
+  width: 40%;
+  height: 100%; }
+
+.ba-portfolio {
+  background-color: yellow;
+  margin: 0 auto;
+  width: 1600px;
+  height: 950px;
+  overflow: hidden;
+  position: relative; }
+
+.ba-portfolio__wrapper-1 {
+  background-color: greenyellow;
+  width: 100%;
+  height: 220px; }
+
+.ba-portfolio__wrapper-2 {
+  background-color: green;
+  width: 100%;
+  height: 570px;
+  padding: 90px 217px 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; }
+
+.ba-portfolio__flex-1 {
+  opacity: 0.8;
+  background-color: red;
+  width: 31.7%;
+  height: 100%; }
+
+.ba-portfolio__flex-2 {
+  opacity: 0.8;
+  background-color: blueviolet;
+  width: 31.7%;
+  height: 100%; }
+
+.ba-portfolio__flex-3 {
+  opacity: 0.8;
+  background-color: blue;
+  width: 31.7%;
+  height: 100%; }
+
+.ba-portfolio__wrapper-3 {
+  background-color: blue;
+  width: 100%;
+  height: 160px; }
+
+.ba-footer {
+  background: red url(images/footer-bg.jpg) no-repeat;
+  margin: 0 auto;
+  width: 1600px;
+  height: 802px;
+  overflow: hidden;
+  position: relative; }
+
+.ba-footer__wrapper-1 {
+  opacity: 0.1;
+  background-color: magenta;
+  width: 100%;
+  height: 230px; }
+
+.ba-footer__wrapper-2 {
+  opacity: 0.1;
+  background-color: orange;
+  width: 100%;
+  height: 150px; }
+
+.ba-footer__wrapper-3 {
+  opacity: 0.1;
+  background-color: blue;
+  width: 100%;
+  height: 230px; }
+
+.ba-footer__wrapper-4 {
+  opacity: 0.1;
+  background-color: greenyellow;
+  width: 100%;
+  height: 192px; }
+
+/* Layout */
+
+/*# sourceMappingURL=style.css.map */
